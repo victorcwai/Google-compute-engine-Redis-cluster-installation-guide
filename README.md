@@ -10,3 +10,6 @@ make
 sudo apt-get install -y tcl
 make test
 ```
+#Reference
+http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Clusters.Create.CON.RedisCluster.html
+http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Replication.Redis-RedisCluster.html
