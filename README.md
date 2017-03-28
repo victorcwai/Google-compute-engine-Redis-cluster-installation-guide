@@ -21,11 +21,13 @@ mkdir 7000 7001 7002 7003 7004
 cd 7000
 sudo vim redis.conf
 #content
-port 7000 #use different port for different instances
+ #use different port for different instances
+port 7000
 cluster-enabled yes
 cluster-config-file nodes.conf
 cluster-node-timeout 5000
 appendonly yes
+protectionmode no
 #content end
 
 cp ../../src/redis-server ..
